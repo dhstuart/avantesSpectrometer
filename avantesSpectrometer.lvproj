@@ -47,6 +47,7 @@
 		<Item Name="Avantes Spectrometer Functions.lvlib" Type="Library" URL="../Libraries/Avantes Spectrometer Functions.lvlib"/>
 		<Item Name="AvaSpec Main.vi" Type="VI" URL="../AvaSpec Main.vi"/>
 		<Item Name="Avantes - take measurement.vi" Type="VI" URL="../Acquisition/Avantes - take measurement.vi"/>
+		<Item Name="Avantes - Determine Integration Time.vi" Type="VI" URL="../Acquisition/Avantes - Determine Integration Time.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
@@ -129,6 +130,8 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="AS5216.dll" Type="Document" URL="../../AvantesSpectrometer2/polling_mc/AS5216.dll"/>
+			<Item Name="Color Parameters.ctl" Type="VI" URL="../Acquisition/Color Parameters.ctl"/>
+			<Item Name="AVS_GetSaturatedPixels.vi" Type="VI" URL="../../../../../../AS5216-DLL_2.2/examples/LabView/LabViewSingleChan/SubVIs/AVS_GetSaturatedPixels.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Continuous Measurement and Logging Application" Type="EXE">
