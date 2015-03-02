@@ -52,7 +52,7 @@
 </U16>
 <SGL>
 <Name>IntTime</Name>
-<Val>100.00000</Val>
+<Val>1000.00000</Val>
 </SGL>
 <U32>
 <Name>IntDelay</Name>
@@ -60,15 +60,15 @@
 </U32>
 <U32>
 <Name>NrOfAVG</Name>
-<Val>1</Val>
+<Val>10</Val>
 </U32>
 <U8>
 <Name>DarkEnable</Name>
-<Val>0</Val>
+<Val>1</Val>
 </U8>
 <U8>
 <Name>ForgetPercentage</Name>
-<Val>0</Val>
+<Val>100</Val>
 </U8>
 <U16>
 <Name>SmoothPix</Name>
@@ -80,7 +80,7 @@
 </U8>
 <U8>
 <Name>SatDetection</Name>
-<Val>0</Val>
+<Val>1</Val>
 </U8>
 <U8>
 <Name>TriggerMode</Name>

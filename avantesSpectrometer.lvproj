@@ -43,8 +43,8 @@
 		</Item>
 		<Item Name="AvaSpec Acquisition.lvlib" Type="Library" URL="../Acquisition/AvaSpec Acquisition.lvlib"/>
 		<Item Name="AvaSpec Logging.lvlib" Type="Library" URL="../Logging/AvaSpec Logging.lvlib"/>
-		<Item Name="AvaSpec Settings.lvlib" Type="Library" URL="../Settings/AvaSpec Settings.lvlib"/>
 		<Item Name="Avantes Spectrometer Functions.lvlib" Type="Library" URL="../Libraries/Avantes Spectrometer Functions.lvlib"/>
+		<Item Name="AvaSpec Settings.lvlib" Type="Library" URL="../Settings/AvaSpec Settings.lvlib"/>
 		<Item Name="AvaSpec Main.vi" Type="VI" URL="../AvaSpec Main.vi"/>
 		<Item Name="Avantes - take measurement.vi" Type="VI" URL="../Acquisition/Avantes - take measurement.vi"/>
 		<Item Name="Avantes - Determine Integration Time.vi" Type="VI" URL="../Acquisition/Avantes - Determine Integration Time.vi"/>
