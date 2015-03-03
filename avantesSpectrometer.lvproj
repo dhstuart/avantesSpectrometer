@@ -43,11 +43,14 @@
 		</Item>
 		<Item Name="AvaSpec Acquisition.lvlib" Type="Library" URL="../Acquisition/AvaSpec Acquisition.lvlib"/>
 		<Item Name="AvaSpec Logging.lvlib" Type="Library" URL="../Logging/AvaSpec Logging.lvlib"/>
-		<Item Name="Avantes Spectrometer Functions.lvlib" Type="Library" URL="../Libraries/Avantes Spectrometer Functions.lvlib"/>
+		<Item Name="Avantes Spectrometer Functions.lvlib" Type="Library" URL="../Libraries/AS-5216-DLL/Avantes Spectrometer Functions.lvlib"/>
 		<Item Name="AvaSpec Settings.lvlib" Type="Library" URL="../Settings/AvaSpec Settings.lvlib"/>
 		<Item Name="AvaSpec Main.vi" Type="VI" URL="../AvaSpec Main.vi"/>
 		<Item Name="Avantes - take measurement.vi" Type="VI" URL="../Acquisition/Avantes - take measurement.vi"/>
 		<Item Name="Avantes - Determine Integration Time.vi" Type="VI" URL="../Acquisition/Avantes - Determine Integration Time.vi"/>
+		<Item Name="AVSirrad.lvlib" Type="Library" URL="../Libraries/IRRAD-DLL/AVSirrad.lvlib"/>
+		<Item Name="Photometric values.vi" Type="VI" URL="../Libraries/IRRAD-DLL/Photometric values.vi"/>
+		<Item Name="interpolate and convert for graph.vi" Type="VI" URL="../interpolate and convert for graph.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
@@ -127,11 +130,14 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="subBuildXYGraph.vi" Type="VI" URL="/&lt;vilib&gt;/express/express controls/BuildXYGraphBlock.llb/subBuildXYGraph.vi"/>
 				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="AS5216.dll" Type="Document" URL="../../AvantesSpectrometer2/polling_mc/AS5216.dll"/>
 			<Item Name="Color Parameters.ctl" Type="VI" URL="../Acquisition/Color Parameters.ctl"/>
-			<Item Name="AVS_GetSaturatedPixels.vi" Type="VI" URL="../../../../../../AS5216-DLL_2.2/examples/LabView/LabViewSingleChan/SubVIs/AVS_GetSaturatedPixels.vi"/>
+			<Item Name="AVS_GetSaturatedPixels.vi" Type="VI" URL="../Libraries/AS-5216-DLL/AVS_GetSaturatedPixels.vi"/>
+			<Item Name="AVSirrad.dll" Type="Document" URL="../Libraries/AVSirrad.dll"/>
+			<Item Name="AVSirrad.dll" Type="Document" URL="../Program Files/National Instruments/LabVIEW 8.5/demos/irradiance/AVSirrad.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Continuous Measurement and Logging Application" Type="EXE">

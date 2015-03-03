@@ -60,7 +60,7 @@
 </U32>
 <U32>
 <Name>NrOfAVG</Name>
-<Val>10</Val>
+<Val>1</Val>
 </U32>
 <U8>
 <Name>DarkEnable</Name>
