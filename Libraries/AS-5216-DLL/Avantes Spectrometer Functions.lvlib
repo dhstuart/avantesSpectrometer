@@ -25,6 +25,7 @@
 		<Item Name="AVS_Register.vi" Type="VI" URL="../polling_mc/AVS_Register.vi"/>
 		<Item Name="AVS_SetSyncMode.vi" Type="VI" URL="../polling_mc/AVS_SetSyncMode.vi"/>
 		<Item Name="AVS_StopMeasure.vi" Type="VI" URL="../polling_mc/AVS_StopMeasure.vi"/>
+		<Item Name="AVS_UseHighResADC.vi" Type="VI" URL="../polling_mc/AVS_UseHighResADC.vi"/>
 		<Item Name="polling_mc.vi" Type="VI" URL="../polling_mc/polling_mc.vi"/>
 	</Item>
 	<Item Name="Avantes - AVS Init.vi" Type="VI" URL="../Avantes - AVS Init.vi"/>
@@ -41,5 +42,6 @@
 	<Item Name="Avantes - AVS_Register.vi" Type="VI" URL="../Avantes - AVS_Register.vi"/>
 	<Item Name="Avantes - AVS_SetSyncMode.vi" Type="VI" URL="../Avantes - AVS_SetSyncMode.vi"/>
 	<Item Name="Avantes - AVS_StopMeasure.vi" Type="VI" URL="../Avantes - AVS_StopMeasure.vi"/>
+	<Item Name="Avantes - AVS_UseHighResADC.vi" Type="VI" URL="../Avantes - AVS_UseHighResADC.vi"/>
 	<Item Name="Avantes - plot.vi" Type="VI" URL="../Avantes - plot.vi"/>
 </Library>

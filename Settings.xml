@@ -8,6 +8,9 @@
 <Name>Hardware Configuration</Name>
 <NumElts>2</NumElts>
 <Cluster>
+<Name>AVS Settings</Name>
+<NumElts>2</NumElts>
+<Cluster>
 <Name>Communication Settings</Name>
 <NumElts>6</NumElts>
 <String>
@@ -52,7 +55,7 @@
 </U16>
 <SGL>
 <Name>IntTime</Name>
-<Val>1000.00000</Val>
+<Val>10.00000</Val>
 </SGL>
 <U32>
 <Name>IntDelay</Name>
@@ -114,6 +117,27 @@
 <Name>RamSpectra</Name>
 <Val>0</Val>
 </U16>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Correction Files</Name>
+<NumElts>4</NumElts>
+<Path>
+<Name>Calibration Standard</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Calibration Measurement</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Aux with DUT</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Aux with Standard lamp</Name>
+<Val></Val>
+</Path>
 </Cluster>
 </Cluster>
 <Cluster>
