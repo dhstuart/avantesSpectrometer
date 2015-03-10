@@ -53,6 +53,8 @@
 		<Item Name="interpolate and convert for graph.vi" Type="VI" URL="../interpolate and convert for graph.vi"/>
 		<Item Name="Cal Aux Corrections.vi" Type="VI" URL="../Cal Aux Corrections.vi"/>
 		<Item Name="AVS settings.ctl" Type="VI" URL="../Libraries/AS-5216-DLL/AVS settings.ctl"/>
+		<Item Name="Choose Sphere.vi" Type="VI" URL="../Acquisition/Choose Sphere.vi"/>
+		<Item Name="Sphere Indicator.ctl" Type="VI" URL="../Acquisition/Sphere Indicator.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
