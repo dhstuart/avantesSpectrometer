@@ -45,7 +45,7 @@
 		<Item Name="AvaSpec Logging.lvlib" Type="Library" URL="../Logging/AvaSpec Logging.lvlib"/>
 		<Item Name="Avantes Spectrometer Functions.lvlib" Type="Library" URL="../Libraries/AS-5216-DLL/Avantes Spectrometer Functions.lvlib"/>
 		<Item Name="AvaSpec Settings.lvlib" Type="Library" URL="../Settings/AvaSpec Settings.lvlib"/>
-		<Item Name="AvaSpec Main.vi" Type="VI" URL="../AvaSpec Main.vi"/>
+		<Item Name="AvaSpec Main.vit" Type="VI" URL="../AvaSpec Main.vit"/>
 		<Item Name="Avantes - take measurement.vi" Type="VI" URL="../Acquisition/Avantes - take measurement.vi"/>
 		<Item Name="Avantes - Determine Integration Time.vi" Type="VI" URL="../Acquisition/Avantes - Determine Integration Time.vi"/>
 		<Item Name="AVSirrad.lvlib" Type="Library" URL="../Libraries/IRRAD-DLL/AVSirrad.lvlib"/>
@@ -178,7 +178,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{0F75B76A-443B-4438-959B-EBE33F15004F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AvaSpec Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AvaSpec Main.vit</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
