@@ -44,4 +44,5 @@
 	<Item Name="Avantes - AVS_StopMeasure.vi" Type="VI" URL="../Avantes - AVS_StopMeasure.vi"/>
 	<Item Name="Avantes - AVS_UseHighResADC.vi" Type="VI" URL="../Avantes - AVS_UseHighResADC.vi"/>
 	<Item Name="Avantes - plot.vi" Type="VI" URL="../Avantes - plot.vi"/>
+	<Item Name="AVS_GetSaturatedPixels.vi" Type="VI" URL="../AVS_GetSaturatedPixels.vi"/>
 </Library>

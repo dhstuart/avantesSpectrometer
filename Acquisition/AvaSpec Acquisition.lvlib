@@ -20,4 +20,10 @@
 	<Item Name="Initialize Hardware References.vi" Type="VI" URL="../Initialize Hardware References.vi"/>
 	<Item Name="Stop Acquisition.vi" Type="VI" URL="../Stop Acquisition.vi"/>
 	<Item Name="Error Handler - Acquisition Message Loop.vi" Type="VI" URL="../Error Handler - Acquisition Message Loop.vi"/>
+	<Item Name="Avantes - take measurement.vi" Type="VI" URL="../Avantes - take measurement.vi"/>
+	<Item Name="Avantes - Determine Integration Time.vi" Type="VI" URL="../Avantes - Determine Integration Time.vi"/>
+	<Item Name="interpolate and convert for graph.vi" Type="VI" URL="../../interpolate and convert for graph.vi"/>
+	<Item Name="Photometric values.vi" Type="VI" URL="../../Libraries/IRRAD-DLL/Photometric values.vi"/>
+	<Item Name="Cal Aux Corrections.vi" Type="VI" URL="../../Cal Aux Corrections.vi"/>
+	<Item Name="Choose Sphere.vi" Type="VI" URL="../Choose Sphere.vi"/>
 </Library>

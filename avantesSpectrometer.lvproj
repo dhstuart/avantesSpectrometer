@@ -40,21 +40,15 @@
 			<Item Name="AvaSpec Acquired Data.ctl" Type="VI" URL="../controls/AvaSpec Acquired Data.ctl"/>
 			<Item Name="AvaSpec UI Data.ctl" Type="VI" URL="../controls/AvaSpec UI Data.ctl"/>
 			<Item Name="AvaSpec UI State.ctl" Type="VI" URL="../controls/AvaSpec UI State.ctl"/>
+			<Item Name="Sphere Indicator.ctl" Type="VI" URL="../Acquisition/Sphere Indicator.ctl"/>
+			<Item Name="Color Parameters.ctl" Type="VI" URL="../Acquisition/Color Parameters.ctl"/>
 		</Item>
 		<Item Name="AvaSpec Acquisition.lvlib" Type="Library" URL="../Acquisition/AvaSpec Acquisition.lvlib"/>
 		<Item Name="AvaSpec Logging.lvlib" Type="Library" URL="../Logging/AvaSpec Logging.lvlib"/>
 		<Item Name="Avantes Spectrometer Functions.lvlib" Type="Library" URL="../Libraries/AS-5216-DLL/Avantes Spectrometer Functions.lvlib"/>
 		<Item Name="AvaSpec Settings.lvlib" Type="Library" URL="../Settings/AvaSpec Settings.lvlib"/>
 		<Item Name="AvaSpec Main.vit" Type="VI" URL="../AvaSpec Main.vit"/>
-		<Item Name="Avantes - take measurement.vi" Type="VI" URL="../Acquisition/Avantes - take measurement.vi"/>
-		<Item Name="Avantes - Determine Integration Time.vi" Type="VI" URL="../Acquisition/Avantes - Determine Integration Time.vi"/>
 		<Item Name="AVSirrad.lvlib" Type="Library" URL="../Libraries/IRRAD-DLL/AVSirrad.lvlib"/>
-		<Item Name="Photometric values.vi" Type="VI" URL="../Libraries/IRRAD-DLL/Photometric values.vi"/>
-		<Item Name="interpolate and convert for graph.vi" Type="VI" URL="../interpolate and convert for graph.vi"/>
-		<Item Name="Cal Aux Corrections.vi" Type="VI" URL="../Cal Aux Corrections.vi"/>
-		<Item Name="AVS settings.ctl" Type="VI" URL="../Libraries/AS-5216-DLL/AVS settings.ctl"/>
-		<Item Name="Choose Sphere.vi" Type="VI" URL="../Acquisition/Choose Sphere.vi"/>
-		<Item Name="Sphere Indicator.ctl" Type="VI" URL="../Acquisition/Sphere Indicator.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
@@ -134,8 +128,6 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="subBuildXYGraph.vi" Type="VI" URL="/&lt;vilib&gt;/express/express controls/BuildXYGraphBlock.llb/subBuildXYGraph.vi"/>
 				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
-				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
-				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
@@ -146,12 +138,13 @@
 				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
 				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
 				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Color Parameters.ctl" Type="VI" URL="../Acquisition/Color Parameters.ctl"/>
-			<Item Name="AVS_GetSaturatedPixels.vi" Type="VI" URL="../Libraries/AS-5216-DLL/AVS_GetSaturatedPixels.vi"/>
 			<Item Name="AVSirrad.dll" Type="Document" URL="../Libraries/AVSirrad.dll"/>
 			<Item Name="AVSirrad.dll" Type="Document" URL="../Program Files/National Instruments/LabVIEW 8.5/demos/irradiance/AVSirrad.dll"/>
+			<Item Name="interpolate and convert for graph.vi" Type="VI" URL="../Acquisition/interpolate and convert for graph.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Continuous Measurement and Logging Application" Type="EXE">

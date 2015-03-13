@@ -27,4 +27,5 @@
 	<Item Name="Radio Get Received Power.vi" Type="VI" URL="../AVSirrad/Radio Get Received Power.vi"/>
 	<Item Name="Radio Isp Get Emitted Energy.vi" Type="VI" URL="../AVSirrad/Radio Isp Get Emitted Energy.vi"/>
 	<Item Name="Radio Isp Get Emitted Power.vi" Type="VI" URL="../AVSirrad/Radio Isp Get Emitted Power.vi"/>
+	<Item Name="AVS settings.ctl" Type="VI" URL="../../AS-5216-DLL/AVS settings.ctl"/>
 </Library>
