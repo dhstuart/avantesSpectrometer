@@ -45,4 +45,5 @@
 	<Item Name="Enqueue Message.vi" Type="VI" URL="../Enqueue Message.vi"/>
 	<Item Name="Dequeue Message.vi" Type="VI" URL="../Dequeue Message.vi"/>
 	<Item Name="Parse for Instrument Name.vi" Type="VI" URL="../Parse for Instrument Name.vi"/>
+	<Item Name="Dequeue Master and Local.vi" Type="VI" URL="../Dequeue Master and Local.vi"/>
 </Library>
