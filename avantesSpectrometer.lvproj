@@ -145,7 +145,6 @@
 			<Item Name="AVSirrad.dll" Type="Document" URL="../Libraries/AVSirrad.dll"/>
 			<Item Name="AVSirrad.dll" Type="Document" URL="../Program Files/National Instruments/LabVIEW 8.5/demos/irradiance/AVSirrad.dll"/>
 			<Item Name="interpolate and convert for graph.vi" Type="VI" URL="../Acquisition/interpolate and convert for graph.vi"/>
-			<Item Name="Call Chain (Single String).vi" Type="VI" URL="../support/Call Chain (Single String).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Continuous Measurement and Logging Application" Type="EXE">
