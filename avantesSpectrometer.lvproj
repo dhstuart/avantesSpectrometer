@@ -35,6 +35,7 @@
 			<Item Name="AvaSpec Check Loop Error.vi" Type="VI" URL="../support/AvaSpec Check Loop Error.vi"/>
 			<Item Name="AvaSpec Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/AvaSpec Error Handler - Event Handling Loop.vi"/>
 			<Item Name="AvaSpec Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/AvaSpec Error Handler - Message Handling Loop.vi"/>
+			<Item Name="Custom Error Handler.vi" Type="VI" URL="../support/Custom Error Handler.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="AvaSpec Acquired Data.ctl" Type="VI" URL="../controls/AvaSpec Acquired Data.ctl"/>
@@ -63,7 +64,6 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Nearest Frequency for Block.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Frequency for Block.vi"/>
 				<Item Name="Nearest Freq in Int Cycles.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Freq in Int Cycles.vi"/>
