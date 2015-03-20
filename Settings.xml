@@ -3,7 +3,7 @@
 <Version>13.0f2</Version>
 <Cluster>
 <Name>Settings in</Name>
-<NumElts>3</NumElts>
+<NumElts>2</NumElts>
 <Cluster>
 <Name>Hardware Configuration</Name>
 <NumElts>3</NumElts>
@@ -55,7 +55,7 @@
 </U16>
 <SGL>
 <Name>IntTime</Name>
-<Val>0.00000</Val>
+<Val>100.00000</Val>
 </SGL>
 <U32>
 <Name>IntDelay</Name>
@@ -63,15 +63,15 @@
 </U32>
 <U32>
 <Name>NrOfAVG</Name>
-<Val>0</Val>
+<Val>1</Val>
 </U32>
 <U8>
 <Name>DarkEnable</Name>
-<Val>0</Val>
+<Val>1</Val>
 </U8>
 <U8>
 <Name>ForgetPercentage</Name>
-<Val>0</Val>
+<Val>100</Val>
 </U8>
 <U16>
 <Name>SmoothPix</Name>
@@ -83,7 +83,7 @@
 </U8>
 <U8>
 <Name>SatDetection</Name>
-<Val>0</Val>
+<Val>1</Val>
 </U8>
 <U8>
 <Name>TriggerMode</Name>
@@ -123,7 +123,7 @@
 <Name>Sphere Indicator</Name>
 <Choice>Naked Sphere</Choice>
 <Choice>Insulated Sphere</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <Cluster>
 <Name>Correction Files</Name>
@@ -167,9 +167,5 @@
 <Val></Val>
 </Path>
 </Cluster>
-<Path>
-<Name>Path</Name>
-<Val></Val>
-</Path>
 </Cluster>
 </LVData>
