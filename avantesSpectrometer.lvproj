@@ -50,6 +50,7 @@
 		<Item Name="AvaSpec Settings.lvlib" Type="Library" URL="../Settings/AvaSpec Settings.lvlib"/>
 		<Item Name="AvaSpec Main.vit" Type="VI" URL="../AvaSpec Main.vit"/>
 		<Item Name="AVSirrad.lvlib" Type="Library" URL="../Libraries/IRRAD-DLL/AVSirrad.lvlib"/>
+		<Item Name="Control subvi from main using events2.vi" Type="VI" URL="../../../../Documents/LabVIEW Data/test2/Control subvi from main using events2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
@@ -144,7 +145,16 @@
 			<Item Name="AVSirrad.dll" Type="Document" URL="../Libraries/AVSirrad.dll"/>
 			<Item Name="AVSirrad.dll" Type="Document" URL="../Program Files/National Instruments/LabVIEW 8.5/demos/irradiance/AVSirrad.dll"/>
 			<Item Name="interpolate and convert for graph.vi" Type="VI" URL="../Acquisition/interpolate and convert for graph.vi"/>
+<<<<<<< HEAD
 			<Item Name="Call Chain (Single String).vi" Type="VI" URL="../support/Call Chain (Single String).vi"/>
+=======
+			<Item Name="test2 Message Queue.lvlib" Type="Library" URL="../../../../Documents/LabVIEW Data/test2/support/Message Queue/test2 Message Queue.lvlib"/>
+			<Item Name="YKPZ400 Acquisition.lvlib" Type="Library" URL="../../YokogawaPZ4000/Acquisition/YKPZ400 Acquisition.lvlib"/>
+			<Item Name="YKPZ400 Message Queue.lvlib" Type="Library" URL="../../YokogawaPZ4000/support/Message Queue/YKPZ400 Message Queue.lvlib"/>
+			<Item Name="YKPZ400 Check Loop Error.vi" Type="VI" URL="../../YokogawaPZ4000/support/YKPZ400 Check Loop Error.vi"/>
+			<Item Name="Yokogawa PZ4000.lvlib" Type="Library" URL="../../YokogawaPZ4000/Libraries/Yokogawa PZ4000/Yokogawa PZ4000.lvlib"/>
+			<Item Name="YKPZ400 Logging.lvlib" Type="Library" URL="../../YokogawaPZ4000/Logging/YKPZ400 Logging.lvlib"/>
+>>>>>>> parent of 8f7f7be... runs from either remote command or front panel
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Continuous Measurement and Logging Application" Type="EXE">
