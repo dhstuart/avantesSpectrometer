@@ -3,7 +3,7 @@
 <Version>13.0f2</Version>
 <Cluster>
 <Name>Settings in</Name>
-<NumElts>2</NumElts>
+<NumElts>3</NumElts>
 <Cluster>
 <Name>Hardware Configuration</Name>
 <NumElts>3</NumElts>
@@ -123,7 +123,7 @@
 <Name>Sphere Indicator</Name>
 <Choice>Naked Sphere</Choice>
 <Choice>Insulated Sphere</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <Cluster>
 <Name>Correction Files</Name>
@@ -167,5 +167,9 @@
 <Val></Val>
 </Path>
 </Cluster>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\dhstuart\Dropbox\CLTC\avantesSpectrometer</Val>
+</Path>
 </Cluster>
 </LVData>
