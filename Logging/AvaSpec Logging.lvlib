@@ -24,4 +24,5 @@
 	<Item Name="Flush Data to Log File.vi" Type="VI" URL="../Flush Data to Log File.vi"/>
 	<Item Name="Error Handler - Logging Message Loop.vi" Type="VI" URL="../Error Handler - Logging Message Loop.vi"/>
 	<Item Name="Build Filename.vi" Type="VI" URL="../Build Filename.vi"/>
+	<Item Name="Date Name.vi" Type="VI" URL="../Date Name.vi"/>
 </Library>
