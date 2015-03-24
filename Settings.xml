@@ -123,7 +123,7 @@
 <Name>Sphere Indicator</Name>
 <Choice>Naked Sphere</Choice>
 <Choice>Insulated Sphere</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <Cluster>
 <Name>Correction Files</Name>
@@ -148,24 +148,20 @@
 </Cluster>
 <Cluster>
 <Name>Logging Configuration</Name>
-<NumElts>4</NumElts>
+<NumElts>3</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\dhstuart\Documents\LabVIEW Data</Val>
+<Val>C:\Users\dhstuart\Documents\LabVIEW Data\Logged Data.tdms</Val>
+</Path>
+<Path>
+<Name>Cal File Folder</Name>
+<Val>C:\Users\dhstuart\Dropbox\CLTC\avantesSpectrometer\Cal Files</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>
 <RefKind>TDMS File</RefKind>
 <Val>0x00000000</Val>
 </Refnum>
-<Path>
-<Name>Calibration File Path</Name>
-<Val></Val>
-</Path>
-<Path>
-<Name>Aux Correction File Path</Name>
-<Val></Val>
-</Path>
 </Cluster>
 <Path>
 <Name>Path</Name>

@@ -50,6 +50,7 @@
 		<Item Name="AvaSpec Settings.lvlib" Type="Library" URL="../Settings/AvaSpec Settings.lvlib"/>
 		<Item Name="AvaSpec Main.vit" Type="VI" URL="../AvaSpec Main.vit"/>
 		<Item Name="AVSirrad.lvlib" Type="Library" URL="../Libraries/IRRAD-DLL/AVSirrad.lvlib"/>
+		<Item Name="inherrited settings command.ctl" Type="VI" URL="../inherrited settings command.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
@@ -139,12 +140,19 @@
 				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
+				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
+				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
+				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="AVSirrad.dll" Type="Document" URL="../Libraries/AVSirrad.dll"/>
 			<Item Name="AVSirrad.dll" Type="Document" URL="../Program Files/National Instruments/LabVIEW 8.5/demos/irradiance/AVSirrad.dll"/>
-			<Item Name="interpolate and convert for graph.vi" Type="VI" URL="../Acquisition/interpolate and convert for graph.vi"/>
 			<Item Name="Call Chain (Single String).vi" Type="VI" URL="../support/Call Chain (Single String).vi"/>
+			<Item Name="Normalize and Dark Correct.vi" Type="VI" URL="../Acquisition/Normalize and Dark Correct.vi"/>
+			<Item Name="choose type of cal file to save.vi" Type="VI" URL="../Logging/choose type of cal file to save.vi"/>
+			<Item Name="inherrited settings.vi" Type="VI" URL="../inherrited settings.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Continuous Measurement and Logging Application" Type="EXE">
