@@ -42,7 +42,7 @@
 			<Item Name="AvaSpec UI Data.ctl" Type="VI" URL="../controls/AvaSpec UI Data.ctl"/>
 			<Item Name="AvaSpec UI State.ctl" Type="VI" URL="../controls/AvaSpec UI State.ctl"/>
 			<Item Name="Sphere Indicator.ctl" Type="VI" URL="../Acquisition/Sphere Indicator.ctl"/>
-			<Item Name="Color Parameters.ctl" Type="VI" URL="../Acquisition/Color Parameters.ctl"/>
+			<Item Name="AvaSpec Color Parameters.ctl" Type="VI" URL="../Acquisition/AvaSpec Color Parameters.ctl"/>
 		</Item>
 		<Item Name="AvaSpec Acquisition.lvlib" Type="Library" URL="../Acquisition/AvaSpec Acquisition.lvlib"/>
 		<Item Name="AvaSpec Logging.lvlib" Type="Library" URL="../Logging/AvaSpec Logging.lvlib"/>

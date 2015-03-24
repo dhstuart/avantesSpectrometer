@@ -1,0 +1,175 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>13.0f2</Version>
+<Cluster>
+<Name>Settings in</Name>
+<NumElts>3</NumElts>
+<Cluster>
+<Name>Hardware Configuration</Name>
+<NumElts>3</NumElts>
+<Cluster>
+<Name>AVS Settings</Name>
+<NumElts>2</NumElts>
+<Cluster>
+<Name>Communication Settings</Name>
+<NumElts>6</NumElts>
+<String>
+<Name>Serial1</Name>
+<Val></Val>
+</String>
+<I32>
+<Name>Handle1</Name>
+<Val>0</Val>
+</I32>
+<Array>
+<Name>a_pDeviceId1</Name>
+<Dimsize>0</Dimsize>
+<U8>
+<Name></Name>
+<Val></Val>
+</U8>
+</Array>
+<U16>
+<Name>a_pNumPixels</Name>
+<Val>0</Val>
+</U16>
+<I32>
+<Name>Port</Name>
+<Val>0</Val>
+</I32>
+<I32>
+<Name>a_hWnd</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>a_pMeasConfig1</Name>
+<NumElts>18</NumElts>
+<U16>
+<Name>StartPixel</Name>
+<Val>0</Val>
+</U16>
+<U16>
+<Name>StopPixel</Name>
+<Val>0</Val>
+</U16>
+<SGL>
+<Name>IntTime</Name>
+<Val>100.00000</Val>
+</SGL>
+<U32>
+<Name>IntDelay</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>NrOfAVG</Name>
+<Val>1</Val>
+</U32>
+<U8>
+<Name>DarkEnable</Name>
+<Val>1</Val>
+</U8>
+<U8>
+<Name>ForgetPercentage</Name>
+<Val>100</Val>
+</U8>
+<U16>
+<Name>SmoothPix</Name>
+<Val>0</Val>
+</U16>
+<U8>
+<Name>SmoothModel</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>SatDetection</Name>
+<Val>1</Val>
+</U8>
+<U8>
+<Name>TriggerMode</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>TriggerSource</Name>
+<Val>0</Val>
+</U8>
+<U8>
+<Name>TriggerSourceType</Name>
+<Val>0</Val>
+</U8>
+<U16>
+<Name>FlashesPerScan</Name>
+<Val>0</Val>
+</U16>
+<U32>
+<Name>LaserDelay</Name>
+<Val>0</Val>
+</U32>
+<U32>
+<Name>LaserWidth</Name>
+<Val>0</Val>
+</U32>
+<SGL>
+<Name>LaserWavelenght</Name>
+<Val>0.00000</Val>
+</SGL>
+<U16>
+<Name>RamSpectra</Name>
+<Val>0</Val>
+</U16>
+</Cluster>
+</Cluster>
+<EW>
+<Name>Sphere Indicator</Name>
+<Choice>Naked Sphere</Choice>
+<Choice>Insulated Sphere</Choice>
+<Val>0</Val>
+</EW>
+<Cluster>
+<Name>Correction Files</Name>
+<NumElts>4</NumElts>
+<Path>
+<Name>Calibration Standard</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Calibration Measurement</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Aux with DUT</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Aux with Standard lamp</Name>
+<Val></Val>
+</Path>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Logging Configuration</Name>
+<NumElts>4</NumElts>
+<Path>
+<Name>Log File Base Path</Name>
+<Val>C:\Users\dhstuart\Documents\LabVIEW Data</Val>
+</Path>
+<Refnum>
+<Name>TDMS File Reference</Name>
+<RefKind>TDMS File</RefKind>
+<Val>0x00000000</Val>
+</Refnum>
+<Path>
+<Name>Calibration File Path</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Aux Correction File Path</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Path>
+<Name>Path</Name>
+<Val>C:\Users\dhstuart\Dropbox\CLTC\avantesSpectrometer</Val>
+</Path>
+</Cluster>
+</LVData>
