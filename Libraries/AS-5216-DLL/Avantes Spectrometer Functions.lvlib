@@ -1,5 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="13008000">
+	<Property Name="NI.Lib.ContainingLib" Type="Str">AvaSpec.lvlib</Property>
+	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../AvaSpec.lvlib</Property>
 	<Property Name="NI.Lib.HelpPath" Type="Str"></Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*5!!!*Q(C=\:1^&lt;BN"$%9`'R%1F\K")3"!?L9JZ30I#/%&amp;8+BVK3/9@3K6&lt;H5"WS"]!VVB_V4LNS0O+H&amp;B&amp;8+!&amp;*Y26[O0(0,.DU:K\;PU2@WJ.HOX@9"`#/&amp;:M8V4_NHR]:?`J2O&amp;W2B;@1LKJ_BR$A?V2I^*DO/H4X]M-G5[&lt;X[HGNZNH`Z0`XH_U]@P\P1B`&lt;&gt;.OGCE7'+"/7:N&gt;HWC*XKC*XKC*XKA"XKA"XKA"\KD/\KD/\KD/\KB'\KB'\KB'XLL[%)8ON":F;2Y5CB*GC2)AE&amp;2]EBY%J[%*_(BJR+?B#@B38A3(E+5]#1]#5`#E`!Q4!F0QJ0Q*$Q*$[E;3&lt;;/$E`#1XI&amp;0!&amp;0Q"0Q"$S56-!4!!4&amp;AM2"%D!5/)/8A#@A#8BY6=!4]!1]!5`!AVM"4]!4]!1]!1^$WKJ%IRE[/DSEE=0D]$A]$I`$1WIZ0![0Q_0Q/$S5E]0D]$A14E%H/1BS"DE"TA_(R_(B3Q[0Q_0Q/$Q/$[[W1^Z7:K!:/DI]"I`"9`!90!90+74Q'$Q'D]&amp;D]*"7"I`"9`!90!90J74Q'$Q'DQ&amp;C&amp;+7]D'4'1#0)%!Q?0OWU7.OF;#47?PUV$Q&gt;6&gt;1"6"UNV9&amp;1(1&lt;8"KIV4&lt;9BKI65,K&amp;I9V926%V%"KAKL%KI#V@(=9TNMCWWQ.&lt;&lt;#FNA#GQ^$0TCQ[TLN^XPN&gt;DNNNVNN.BONVWON6CMNFUMN&amp;AP.Z`0JNLKG(^L&amp;?#`&gt;]4\;QXVX_R"8.]_`8H\_`P(^ZOH&lt;Y_XI?RN\LBXOJ@`B&lt;N3F_D_O?&gt;&lt;I&amp;?(3;%5!!!!!</Property>
 	<Property Name="NI.Lib.LocalName" Type="Str">Avantes Spectrometer Functions</Property>
