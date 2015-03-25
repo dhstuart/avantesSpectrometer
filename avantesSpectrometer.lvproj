@@ -21,36 +21,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Project Documentation" Type="Folder">
-			<Item Name="Documentation Images" Type="Folder">
-				<Item Name="loc_continuous_measurement.png" Type="Document" URL="../documentation/loc_continuous_measurement.png"/>
-			</Item>
-			<Item Name="Continuous Measurement and Logging Documentation.html" Type="Document" URL="../documentation/Continuous Measurement and Logging Documentation.html"/>
-		</Item>
-		<Item Name="Support VIs" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="AvaSpec Message Queue.lvlib" Type="Library" URL="../support/Message Queue/AvaSpec Message Queue.lvlib"/>
-			<Item Name="AvaSpec User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/AvaSpec User Event - Stop.lvlib"/>
-			<Item Name="AvaSpec Set Enable State on Multiple Controls.vi" Type="VI" URL="../support/AvaSpec Set Enable State on Multiple Controls.vi"/>
-			<Item Name="AvaSpec Check Loop Error.vi" Type="VI" URL="../support/AvaSpec Check Loop Error.vi"/>
-			<Item Name="AvaSpec Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/AvaSpec Error Handler - Event Handling Loop.vi"/>
-			<Item Name="AvaSpec Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/AvaSpec Error Handler - Message Handling Loop.vi"/>
-			<Item Name="Custom Error Handler.vi" Type="VI" URL="../support/Custom Error Handler.vi"/>
-		</Item>
-		<Item Name="Type Definitions" Type="Folder">
-			<Item Name="AvaSpec Acquired Data.ctl" Type="VI" URL="../controls/AvaSpec Acquired Data.ctl"/>
-			<Item Name="AvaSpec UI Data.ctl" Type="VI" URL="../controls/AvaSpec UI Data.ctl"/>
-			<Item Name="AvaSpec UI State.ctl" Type="VI" URL="../controls/AvaSpec UI State.ctl"/>
-			<Item Name="Sphere Indicator.ctl" Type="VI" URL="../Acquisition/Sphere Indicator.ctl"/>
-			<Item Name="AvaSpec Color Parameters.ctl" Type="VI" URL="../Acquisition/AvaSpec Color Parameters.ctl"/>
-		</Item>
-		<Item Name="AvaSpec Acquisition.lvlib" Type="Library" URL="../Acquisition/AvaSpec Acquisition.lvlib"/>
-		<Item Name="AvaSpec Logging.lvlib" Type="Library" URL="../Logging/AvaSpec Logging.lvlib"/>
-		<Item Name="Avantes Spectrometer Functions.lvlib" Type="Library" URL="../Libraries/AS-5216-DLL/Avantes Spectrometer Functions.lvlib"/>
-		<Item Name="AvaSpec Settings.lvlib" Type="Library" URL="../Settings/AvaSpec Settings.lvlib"/>
-		<Item Name="AvaSpec Main.vit" Type="VI" URL="../AvaSpec Main.vit"/>
-		<Item Name="AVSirrad.lvlib" Type="Library" URL="../Libraries/IRRAD-DLL/AVSirrad.lvlib"/>
-		<Item Name="inherrited settings command.ctl" Type="VI" URL="../inherrited settings command.ctl"/>
+		<Item Name="AvaSpec.lvlib" Type="Library" URL="../AvaSpec.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
@@ -147,12 +118,6 @@
 				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="AVSirrad.dll" Type="Document" URL="../Libraries/AVSirrad.dll"/>
-			<Item Name="Call Chain (Single String).vi" Type="VI" URL="../support/Call Chain (Single String).vi"/>
-			<Item Name="Normalize and Dark Correct.vi" Type="VI" URL="../Acquisition/Normalize and Dark Correct.vi"/>
-			<Item Name="choose type of cal file to save.vi" Type="VI" URL="../Logging/choose type of cal file to save.vi"/>
-			<Item Name="inherrited settings.vi" Type="VI" URL="../inherrited settings.vi"/>
-			<Item Name="AVS settings.ctl" Type="VI" URL="../Libraries/AS-5216-DLL/AVS settings.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Continuous Measurement and Logging Application" Type="EXE">
@@ -179,7 +144,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{0F75B76A-443B-4438-959B-EBE33F15004F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AvaSpec Main.vit</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/AvaSpec.lvlib/AvaSpec Main.vit</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
