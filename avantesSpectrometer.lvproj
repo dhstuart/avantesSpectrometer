@@ -148,11 +148,11 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="AVSirrad.dll" Type="Document" URL="../Libraries/AVSirrad.dll"/>
-			<Item Name="AVSirrad.dll" Type="Document" URL="../Program Files/National Instruments/LabVIEW 8.5/demos/irradiance/AVSirrad.dll"/>
 			<Item Name="Call Chain (Single String).vi" Type="VI" URL="../support/Call Chain (Single String).vi"/>
 			<Item Name="Normalize and Dark Correct.vi" Type="VI" URL="../Acquisition/Normalize and Dark Correct.vi"/>
 			<Item Name="choose type of cal file to save.vi" Type="VI" URL="../Logging/choose type of cal file to save.vi"/>
 			<Item Name="inherrited settings.vi" Type="VI" URL="../inherrited settings.vi"/>
+			<Item Name="AVS settings.ctl" Type="VI" URL="../Libraries/AS-5216-DLL/AVS settings.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Continuous Measurement and Logging Application" Type="EXE">
