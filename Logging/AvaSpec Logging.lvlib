@@ -15,9 +15,6 @@
 		<Item Name="Logging State.ctl" Type="VI" URL="../Logging State.ctl"/>
 	</Item>
 	<Item Name="Metadata" Type="Folder">
-		<Item Name="Metadata all typedef.ctl" Type="VI" URL="../Metadata/Metadata all typedef.ctl"/>
-		<Item Name="Metadata disable typedef.ctl" Type="VI" URL="../Metadata/Metadata disable typedef.ctl"/>
-		<Item Name="Metadata typedef.ctl" Type="VI" URL="../Metadata/Metadata typedef.ctl"/>
 		<Item Name="Set Metadata.vi" Type="VI" URL="../Set Metadata.vi"/>
 	</Item>
 	<Item Name="Logging Message Loop.vi" Type="VI" URL="../Logging Message Loop.vi"/>

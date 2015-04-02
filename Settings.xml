@@ -123,25 +123,29 @@
 <Name>Sphere Indicator</Name>
 <Choice>Naked Sphere</Choice>
 <Choice>Insulated Sphere</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <Cluster>
 <Name>Correction Files</Name>
-<NumElts>4</NumElts>
+<NumElts>5</NumElts>
 <Path>
-<Name>Calibration Standard</Name>
+<Name>Calibration File</Name>
 <Val></Val>
 </Path>
 <Path>
-<Name>Calibration Measurement</Name>
+<Name>Cal lamp in, cal lamp on</Name>
 <Val></Val>
 </Path>
 <Path>
-<Name>Aux with DUT</Name>
+<Name>Cal lamp in, aux lamp on</Name>
 <Val></Val>
 </Path>
 <Path>
-<Name>Aux with Standard lamp</Name>
+<Name>DUT in, DUT on</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>DUT in, aux lamp on</Name>
 <Val></Val>
 </Path>
 </Cluster>
