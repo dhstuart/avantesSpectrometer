@@ -28,4 +28,5 @@
 	<Item Name="Photometric values.vi" Type="VI" URL="../../Libraries/IRRAD-DLL/Photometric values.vi"/>
 	<Item Name="Cal Aux Corrections.vi" Type="VI" URL="../../Cal Aux Corrections.vi"/>
 	<Item Name="Choose Sphere.vi" Type="VI" URL="../Choose Sphere.vi"/>
+	<Item Name="Get CRI.vi" Type="VI" URL="../Get CRI.vi"/>
 </Library>
