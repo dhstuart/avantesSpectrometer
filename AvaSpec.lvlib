@@ -39,5 +39,5 @@
 	<Item Name="inherrited settings command.ctl" Type="VI" URL="../inherrited settings command.ctl"/>
 	<Item Name="inherrited settings.vi" Type="VI" URL="../inherrited settings.vi"/>
 	<Item Name="Normalize and Dark Correct.vi" Type="VI" URL="../Acquisition/Normalize and Dark Correct.vi"/>
-	<Item Name="AVSirrad.lvlib" Type="Library" URL="../Libraries/IRRAD-DLL/AVSirrad.lvlib"/>
+	<Item Name="AVSirrad_support.lvlib" Type="Library" URL="../AVSirrad_support.lvlib"/>
 </Library>
