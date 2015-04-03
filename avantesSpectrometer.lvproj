@@ -24,6 +24,7 @@
 		<Item Name="AvaSpec.lvlib" Type="Library" URL="../AvaSpec.lvlib"/>
 		<Item Name="test color parameters.vi" Type="VI" URL="../test color parameters.vi"/>
 		<Item Name="IRRAD input parameters.ctl" Type="VI" URL="../IRRAD input parameters.ctl"/>
+		<Item Name="grab data from light matrix.vi" Type="VI" URL="../grab data from light matrix.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
