@@ -1,0 +1,48 @@
+% dark_array_analysis.m
+close all
+clear all
+clc
+
+
+temp = csvread('C:\Users\dhstuart\Dropbox\CLTC\avantesSpectrometer\Cal Files\Dark Array2015_4_15_.csv');
+intTime = temp(2:end,1);
+scans = temp(2:end,2:end);
+
+frequency = temp(1,2:end);
+figure
+for i = 1:length(intTime)
+    scansNorm(i,:) = scans(i,:)./intTime(i);
+    p(i,:) = polyfit(frequency,scansNorm(i,:),1);
+    yResiduals(i,:) = scansNorm(i,:)-polyval(p(i,:),frequency);
+    plot(frequency,scansNorm(i,:))
+    hold on
+end
+
+
+
+figure
+for i = 12:length(intTime)
+    plot(frequency,yResiduals(i,:),'y')
+    hold on
+end
+
+test = mean(yResiduals(11:end,:));
+plot(frequency,test,'r')
+% for i = 1:length(intTime)
+% pFitM = polyfit(intTime,p(:,1),3);
+% pFitB = polyfit(intTime,p(:,2),3);
+% M = polyval(pFitM,intTime(10));
+% B = polyval(pFitB,intTime(10));
+figure
+plot(frequency,scansNorm(10,:),frequency,out)
+hold on
+out = M(10).*frequency+B(10)+yResiduals(end,:);
+line([frequency(1) frequency(end)],[M(10)*frequency(1)+B(10) M(10)*frequency(end)+B(10)])
+% end
+fm = fit(intTime,p(:,1),'power2');
+cm = coeffvalues(fm);
+M= cm(1)*intTime.^cm(2)+cm(3);
+
+fb = fit(intTime,p(:,2),'power2');
+cb = coeffvalues(fb);
+B= cb(1)*intTime.^cb(2)+cb(3);

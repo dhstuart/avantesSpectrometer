@@ -63,7 +63,7 @@
 </U32>
 <U32>
 <Name>NrOfAVG</Name>
-<Val>1</Val>
+<Val>10</Val>
 </U32>
 <U8>
 <Name>DarkEnable</Name>
@@ -75,11 +75,11 @@
 </U8>
 <U16>
 <Name>SmoothPix</Name>
-<Val>0</Val>
+<Val>21</Val>
 </U16>
 <U8>
 <Name>SmoothModel</Name>
-<Val>0</Val>
+<Val>21</Val>
 </U8>
 <U8>
 <Name>SatDetection</Name>
@@ -127,7 +127,7 @@
 </EW>
 <Cluster>
 <Name>Correction Files</Name>
-<NumElts>5</NumElts>
+<NumElts>6</NumElts>
 <Path>
 <Name>Calibration File</Name>
 <Val></Val>
@@ -146,6 +146,10 @@
 </Path>
 <Path>
 <Name>DUT in, aux lamp on</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Dark Array</Name>
 <Val></Val>
 </Path>
 </Cluster>
