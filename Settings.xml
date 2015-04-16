@@ -9,7 +9,7 @@
 <NumElts>3</NumElts>
 <Cluster>
 <Name>AVS Settings</Name>
-<NumElts>2</NumElts>
+<NumElts>4</NumElts>
 <Cluster>
 <Name>Communication Settings</Name>
 <NumElts>6</NumElts>
@@ -79,7 +79,7 @@
 </U16>
 <U8>
 <Name>SmoothModel</Name>
-<Val>21</Val>
+<Val>0</Val>
 </U8>
 <U8>
 <Name>SatDetection</Name>
@@ -118,6 +118,14 @@
 <Val>0</Val>
 </U16>
 </Cluster>
+<Boolean>
+<Name>Dark Correct</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Auto Determine Int Time</Name>
+<Val>0</Val>
+</Boolean>
 </Cluster>
 <EW>
 <Name>Sphere Indicator</Name>
