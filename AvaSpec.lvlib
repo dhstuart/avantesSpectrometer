@@ -40,4 +40,5 @@
 	<Item Name="inherrited settings.vi" Type="VI" URL="../inherrited settings.vi"/>
 	<Item Name="Normalize and Dark Correct.vi" Type="VI" URL="../Acquisition/Normalize and Dark Correct.vi"/>
 	<Item Name="AVSirrad_support.lvlib" Type="Library" URL="../AVSirrad_support.lvlib"/>
+	<Item Name="update settings and acquire.vi" Type="VI" URL="../update settings and acquire.vi"/>
 </Library>
