@@ -26,6 +26,10 @@
 	<Item Name="Avantes - Determine Integration Time.vi" Type="VI" URL="../Avantes - Determine Integration Time.vi"/>
 	<Item Name="interpolate.vi" Type="VI" URL="../interpolate.vi"/>
 	<Item Name="Photometric values.vi" Type="VI" URL="../../Libraries/IRRAD-DLL/Photometric values.vi"/>
-	<Item Name="Cal Aux Corrections.vi" Type="VI" URL="../../Cal Aux Corrections.vi"/>
+	<Item Name="Cal Aux Corrections.vi" Type="VI" URL="../Cal Aux Corrections.vi"/>
 	<Item Name="Choose Sphere.vi" Type="VI" URL="../Choose Sphere.vi"/>
+	<Item Name="Measurement Type.ctl" Type="VI" URL="../../Settings/Measurement Type.ctl"/>
+	<Item Name="Measurement Type.vi" Type="VI" URL="../../Measurement Type.vi"/>
+	<Item Name="test color parameters.vi" Type="VI" URL="../../test color parameters.vi"/>
+	<Item Name="Dark Correct.vi" Type="VI" URL="../Dark Correct.vi"/>
 </Library>

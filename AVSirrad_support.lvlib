@@ -10,10 +10,10 @@
 
 </Property>
 	<Item Name="AVSirrad.lvlib" Type="Library" URL="../Libraries/IRRAD-DLL/AVSirrad.lvlib"/>
-	<Item Name="Get CRI.vi" Type="VI" URL="../Acquisition/Get CRI.vi"/>
-	<Item Name="irrad calc color parameters.vi" Type="VI" URL="../irrad calc color parameters.vi"/>
-	<Item Name="irrad calc lumens.vi" Type="VI" URL="../irrad calc lumens.vi"/>
-	<Item Name="irrad error.vi" Type="VI" URL="../irrad error.vi"/>
-	<Item Name="irrad calc duv.vi" Type="VI" URL="../irrad calc duv.vi"/>
-	<Item Name="irrad calc u_prime v_prime.vi" Type="VI" URL="../irrad calc u_prime v_prime.vi"/>
+	<Item Name="Get CRI.vi" Type="VI" URL="../Libraries/IRRAD-DLL/Get CRI.vi"/>
+	<Item Name="irrad calc color parameters.vi" Type="VI" URL="../Libraries/IRRAD-DLL/irrad calc color parameters.vi"/>
+	<Item Name="irrad calc duv.vi" Type="VI" URL="../Libraries/IRRAD-DLL/irrad calc duv.vi"/>
+	<Item Name="irrad calc lumens.vi" Type="VI" URL="../Libraries/IRRAD-DLL/irrad calc lumens.vi"/>
+	<Item Name="irrad calc u_prime v_prime.vi" Type="VI" URL="../Libraries/IRRAD-DLL/irrad calc u_prime v_prime.vi"/>
+	<Item Name="irrad error.vi" Type="VI" URL="../Libraries/IRRAD-DLL/irrad error.vi"/>
 </Library>

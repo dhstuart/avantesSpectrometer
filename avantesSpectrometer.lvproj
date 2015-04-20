@@ -22,17 +22,6 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="AvaSpec.lvlib" Type="Library" URL="../AvaSpec.lvlib"/>
-		<Item Name="test color parameters.vi" Type="VI" URL="../test color parameters.vi"/>
-		<Item Name="IRRAD input parameters.ctl" Type="VI" URL="../IRRAD input parameters.ctl"/>
-		<Item Name="grab data from light matrix.vi" Type="VI" URL="../grab data from light matrix.vi"/>
-		<Item Name="Dark Array FGV.vi" Type="VI" URL="../../MeasurementControl/Dark Array FGV.vi"/>
-		<Item Name="dark int time.vi" Type="VI" URL="../dark int time.vi"/>
-		<Item Name="prepare dark model.vi" Type="VI" URL="../prepare dark model.vi"/>
-		<Item Name="Power Fit.vi" Type="VI" URL="../Power Fit.vi"/>
-		<Item Name="Load Dark Array Data.vi" Type="VI" URL="../Load Dark Array Data.vi"/>
-		<Item Name="Dark Correct.vi" Type="VI" URL="../Dark Correct.vi"/>
-		<Item Name="Measurement Type.ctl" Type="VI" URL="../Settings/Measurement Type.ctl"/>
-		<Item Name="Measurement Type.vi" Type="VI" URL="../Measurement Type.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
@@ -286,6 +275,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="AVSirrad.dll" Type="Document" URL="../../../../../../AVSIRRAD/Examples/Labview/build/AVSirrad.dll"/>
+			<Item Name="Call Chain (Single String).vi" Type="VI" URL="../../MeasurementControl/Call Chain (Single String).vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Continuous Measurement and Logging Application" Type="EXE">

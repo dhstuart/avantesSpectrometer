@@ -2,7 +2,7 @@
 <LVData xmlns="http://www.ni.com/LVData">
 <Version>13.0f2</Version>
 <Cluster>
-<Name>Settings</Name>
+<Name>Settings out</Name>
 <NumElts>3</NumElts>
 <Cluster>
 <Name>Hardware Configuration</Name>
@@ -138,7 +138,7 @@
 <Choice>Normal</Choice>
 <Choice>Calibration</Choice>
 <Choice>Dark</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <Cluster>
 <Name>Correction Files</Name>
