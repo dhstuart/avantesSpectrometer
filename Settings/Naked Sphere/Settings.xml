@@ -138,7 +138,7 @@
 <Choice>Normal</Choice>
 <Choice>Calibration</Choice>
 <Choice>Dark</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <Cluster>
 <Name>Correction Files</Name>
@@ -170,7 +170,7 @@
 <NumElts>3</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\dhstuart\Documents\LabVIEW Data\Logged Data.tdms</Val>
+<Val>C:\Users\dhstuart\Dropbox\CLTC\MeasurementControl\Output</Val>
 </Path>
 <Path>
 <Name>Cal File Folder</Name>
