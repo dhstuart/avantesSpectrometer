@@ -138,7 +138,7 @@
 <Choice>Normal</Choice>
 <Choice>Calibration</Choice>
 <Choice>Dark</Choice>
-<Val>0</Val>
+<Val>1</Val>
 </EW>
 <Cluster>
 <Name>Correction Files</Name>
@@ -161,7 +161,7 @@
 </Path>
 <Path>
 <Name>Dark Array Model</Name>
-<Val></Val>
+<Val>C:\Users\dhstuart\Dropbox\CLTC\avantesSpectrometer\Settings\Naked Sphere\Cal Files\Dark Model Parameters.csv</Val>
 </Path>
 </Cluster>
 </Cluster>
