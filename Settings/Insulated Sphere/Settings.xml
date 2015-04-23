@@ -2,14 +2,14 @@
 <LVData xmlns="http://www.ni.com/LVData">
 <Version>13.0f2</Version>
 <Cluster>
-<Name>Settings in</Name>
+<Name>Settings out</Name>
 <NumElts>3</NumElts>
 <Cluster>
 <Name>Hardware Configuration</Name>
-<NumElts>3</NumElts>
+<NumElts>4</NumElts>
 <Cluster>
 <Name>AVS Settings</Name>
-<NumElts>2</NumElts>
+<NumElts>4</NumElts>
 <Cluster>
 <Name>Communication Settings</Name>
 <NumElts>6</NumElts>
@@ -63,7 +63,7 @@
 </U32>
 <U32>
 <Name>NrOfAVG</Name>
-<Val>1</Val>
+<Val>10</Val>
 </U32>
 <U8>
 <Name>DarkEnable</Name>
@@ -75,7 +75,7 @@
 </U8>
 <U16>
 <Name>SmoothPix</Name>
-<Val>0</Val>
+<Val>21</Val>
 </U16>
 <U8>
 <Name>SmoothModel</Name>
@@ -118,57 +118,72 @@
 <Val>0</Val>
 </U16>
 </Cluster>
+<Boolean>
+<Name>Dark Correct</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Auto Determine Int Time</Name>
+<Val>1</Val>
+</Boolean>
 </Cluster>
 <EW>
 <Name>Sphere Indicator</Name>
 <Choice>Naked Sphere</Choice>
 <Choice>Insulated Sphere</Choice>
-<Val>0</Val>
+<Val>1</Val>
+</EW>
+<EW>
+<Name>Measurement Type</Name>
+<Choice>Normal</Choice>
+<Choice>Calibration</Choice>
+<Choice>Dark</Choice>
+<Val>2</Val>
 </EW>
 <Cluster>
 <Name>Correction Files</Name>
-<NumElts>4</NumElts>
+<NumElts>5</NumElts>
 <Path>
-<Name>Calibration Standard</Name>
+<Name>Calibration File</Name>
 <Val></Val>
 </Path>
 <Path>
-<Name>Calibration Measurement</Name>
+<Name>Cal lamp in, cal lamp on</Name>
 <Val></Val>
 </Path>
 <Path>
-<Name>Aux with DUT</Name>
+<Name>Cal lamp in, aux lamp on</Name>
 <Val></Val>
 </Path>
 <Path>
-<Name>Aux with Standard lamp</Name>
+<Name>DUT in, aux lamp on</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Dark Array Model</Name>
 <Val></Val>
 </Path>
 </Cluster>
 </Cluster>
 <Cluster>
 <Name>Logging Configuration</Name>
-<NumElts>4</NumElts>
+<NumElts>3</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
 <Val>C:\Users\dhstuart\Documents\LabVIEW Data\Logged Data.tdms</Val>
+</Path>
+<Path>
+<Name>Cal File Folder</Name>
+<Val>C:\Users\dhstuart\Dropbox\CLTC\avantesSpectrometer\Settings\Insulated Sphere\Cal Files</Val>
 </Path>
 <Refnum>
 <Name>TDMS File Reference</Name>
 <RefKind>TDMS File</RefKind>
 <Val>0x00000000</Val>
 </Refnum>
-<Path>
-<Name>Calibration File Path</Name>
-<Val></Val>
-</Path>
-<Path>
-<Name>Aux Correction File Path</Name>
-<Val></Val>
-</Path>
 </Cluster>
 <Path>
-<Name>Path</Name>
+<Name>Base Path</Name>
 <Val>C:\Users\dhstuart\Dropbox\CLTC\avantesSpectrometer</Val>
 </Path>
 </Cluster>

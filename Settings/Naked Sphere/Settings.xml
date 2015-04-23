@@ -145,23 +145,23 @@
 <NumElts>5</NumElts>
 <Path>
 <Name>Calibration File</Name>
-<Val>C:\Users\dhstuart\Dropbox\CLTC\avantesSpectrometer\Settings\Naked Sphere\Cal Files\calibration.csv</Val>
+<Val></Val>
 </Path>
 <Path>
 <Name>Cal lamp in, cal lamp on</Name>
-<Val>C:\Users\dhstuart\Dropbox\CLTC\avantesSpectrometer\Settings\Naked Sphere\Cal Files\Cal_lamp_in - cal_lamp_on2015_4_21_.csv</Val>
+<Val></Val>
 </Path>
 <Path>
 <Name>Cal lamp in, aux lamp on</Name>
-<Val>C:\Users\dhstuart\Dropbox\CLTC\avantesSpectrometer\Settings\Naked Sphere\Cal Files\Cal_lamp_in - aux_lamp_on2015_4_21_.csv</Val>
+<Val></Val>
 </Path>
 <Path>
 <Name>DUT in, aux lamp on</Name>
-<Val>C:\Users\dhstuart\Dropbox\CLTC\avantesSpectrometer\Settings\Naked Sphere\Cal Files\DUT_in - aux_lamp_on2015_4_21_.csv</Val>
+<Val></Val>
 </Path>
 <Path>
 <Name>Dark Array Model</Name>
-<Val>C:\Users\dhstuart\Dropbox\CLTC\avantesSpectrometer\Settings\Naked Sphere\Cal Files\Dark Model Parameters.csv</Val>
+<Val></Val>
 </Path>
 </Cluster>
 </Cluster>
@@ -170,7 +170,7 @@
 <NumElts>3</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\dhstuart\Dropbox\CLTC\MeasurementControl\Output</Val>
+<Val>C:\Users\dhstuart\Documents\LabVIEW Data\Logged Data.tdms</Val>
 </Path>
 <Path>
 <Name>Cal File Folder</Name>
