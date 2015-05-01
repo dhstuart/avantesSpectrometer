@@ -30,4 +30,5 @@
 	<Item Name="Build Filename.vi" Type="VI" URL="../Build Filename.vi"/>
 	<Item Name="Date Name.vi" Type="VI" URL="../Date Name.vi"/>
 	<Item Name="choose type of cal file to save.vi" Type="VI" URL="../choose type of cal file to save.vi"/>
+	<Item Name="Non Linear Fit.vi" Type="VI" URL="../Dark/Non Linear Fit.vi"/>
 </Library>
