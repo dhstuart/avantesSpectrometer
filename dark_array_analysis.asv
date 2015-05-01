@@ -52,14 +52,14 @@ yResidualsAvg = mean(yResiduals(11:end,:));
 ft = fittype( 'rat11' );
 opts = fitoptions( 'Method', 'NonlinearLeastSquares' );
 opts.Algorithm = 'Levenberg-Marquardt';
-opts.StartPoint = [0.585267750979777 0.223811939491137 0.751267059305653];
+
 fm = fit(intTime, p(:,1), ft, opts);
 cm = coeffvalues(fm);
-M = (cm(1).*intTime + cm(2))./(intTime+cm(3));
+M= cm(1)*intTime.^cm(2)+cm(3);
 
 fb = fit(intTime,p(:,2), ft, opts);
 cb = coeffvalues(fb);
-B = (cb(1).*intTime + cb(2))./(intTime+cb(3));
+B= cb(1)*intTime.^cb(2)+cb(3);
 
 % for i=1:length(intTime)
 %    figure('name',num2str(intTime(i)))
