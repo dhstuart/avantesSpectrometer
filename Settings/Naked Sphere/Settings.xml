@@ -75,7 +75,7 @@
 </U8>
 <U16>
 <Name>SmoothPix</Name>
-<Val>0</Val>
+<Val>21</Val>
 </U16>
 <U8>
 <Name>SmoothModel</Name>
@@ -138,26 +138,26 @@
 <Choice>Normal</Choice>
 <Choice>Calibration</Choice>
 <Choice>Dark</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <Cluster>
 <Name>Correction Files</Name>
 <NumElts>6</NumElts>
 <Path>
 <Name>Calibration File</Name>
-<Val></Val>
+<Val>C:\Users\dhstuart\Dropbox\CLTC\avantesSpectrometer\Settings\Naked Sphere\Cal Files\calibration.csv</Val>
 </Path>
 <Path>
 <Name>Cal lamp in, cal lamp on</Name>
-<Val></Val>
+<Val>C:\Users\dhstuart\Dropbox\CLTC\avantesSpectrometer\Settings\Naked Sphere\Cal Files\Cal_lamp_in - cal_lamp_on2015_5_1_.csv</Val>
 </Path>
 <Path>
 <Name>Cal lamp in, aux lamp on</Name>
-<Val></Val>
+<Val>C:\Users\dhstuart\Dropbox\CLTC\avantesSpectrometer\Settings\Naked Sphere\Cal Files\Cal_lamp_in - aux_lamp_on2015_4_24_.csv</Val>
 </Path>
 <Path>
 <Name>DUT in, aux lamp on</Name>
-<Val></Val>
+<Val>C:\Users\dhstuart\Dropbox\CLTC\avantesSpectrometer\Settings\Naked Sphere\Cal Files\DUT_in - aux_lamp_on2015_4_24_.csv</Val>
 </Path>
 <Path>
 <Name>Dark Model</Name>
