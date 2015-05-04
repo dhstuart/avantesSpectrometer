@@ -31,4 +31,5 @@
 	<Item Name="Build Filename.vi" Type="VI" URL="../Build Filename.vi"/>
 	<Item Name="Date Name.vi" Type="VI" URL="../Date Name.vi"/>
 	<Item Name="choose type of cal file to save.vi" Type="VI" URL="../choose type of cal file to save.vi"/>
+	<Item Name="Metadata Cluster.ctl" Type="VI" URL="../../Metadata Cluster.ctl"/>
 </Library>
