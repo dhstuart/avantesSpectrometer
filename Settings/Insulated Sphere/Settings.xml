@@ -2,7 +2,7 @@
 <LVData xmlns="http://www.ni.com/LVData">
 <Version>13.0f2</Version>
 <Cluster>
-<Name>Settings in</Name>
+<Name>Settings out</Name>
 <NumElts>3</NumElts>
 <Cluster>
 <Name>Hardware Configuration</Name>
@@ -55,7 +55,7 @@
 </U16>
 <SGL>
 <Name>IntTime</Name>
-<Val>0.00000</Val>
+<Val>100.00000</Val>
 </SGL>
 <U32>
 <Name>IntDelay</Name>
@@ -63,19 +63,19 @@
 </U32>
 <U32>
 <Name>NrOfAVG</Name>
-<Val>0</Val>
+<Val>10</Val>
 </U32>
 <U8>
 <Name>DarkEnable</Name>
-<Val>0</Val>
+<Val>1</Val>
 </U8>
 <U8>
 <Name>ForgetPercentage</Name>
-<Val>0</Val>
+<Val>100</Val>
 </U8>
 <U16>
 <Name>SmoothPix</Name>
-<Val>0</Val>
+<Val>21</Val>
 </U16>
 <U8>
 <Name>SmoothModel</Name>
@@ -83,7 +83,7 @@
 </U8>
 <U8>
 <Name>SatDetection</Name>
-<Val>0</Val>
+<Val>1</Val>
 </U8>
 <U8>
 <Name>TriggerMode</Name>
@@ -138,30 +138,30 @@
 <Choice>Normal</Choice>
 <Choice>Calibration</Choice>
 <Choice>Dark</Choice>
-<Val>1</Val>
+<Val>0</Val>
 </EW>
 <Cluster>
 <Name>Correction Files</Name>
 <NumElts>6</NumElts>
 <Path>
 <Name>Calibration File</Name>
-<Val></Val>
+<Val>C:\Users\dhstuart\Dropbox\CLTC\avantesSpectrometer\Settings\Insulated Sphere\Cal Files\calibration.csv</Val>
 </Path>
 <Path>
 <Name>Cal lamp in, cal lamp on</Name>
-<Val></Val>
+<Val>C:\Users\dhstuart\Dropbox\CLTC\avantesSpectrometer\Settings\Insulated Sphere\Cal Files\Cal_lamp_in - cal_lamp_on2015_5_4_.csv</Val>
 </Path>
 <Path>
 <Name>Cal lamp in, aux lamp on</Name>
-<Val></Val>
+<Val>C:\Users\dhstuart\Dropbox\CLTC\avantesSpectrometer\Settings\Insulated Sphere\Cal Files\Cal_lamp_in - aux_lamp_on2015_5_4_.csv</Val>
 </Path>
 <Path>
 <Name>DUT in, aux lamp on</Name>
-<Val></Val>
+<Val>C:\Users\dhstuart\Dropbox\CLTC\avantesSpectrometer\Settings\Insulated Sphere\Cal Files\DUT_in - aux_lamp_on2015_5_4_.csv</Val>
 </Path>
 <Path>
 <Name>Dark Model</Name>
-<Val></Val>
+<Val>C:\Users\dhstuart\Dropbox\CLTC\avantesSpectrometer\Settings\Insulated Sphere\Cal Files\Dark Model Parameters.csv</Val>
 </Path>
 <Path>
 <Name>Dark Array</Name>

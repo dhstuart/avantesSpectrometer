@@ -11,12 +11,12 @@
 		<Item Name="Continuous Measurement and Logging Documentation.html" Type="Document" URL="../documentation/Continuous Measurement and Logging Documentation.html"/>
 	</Item>
 	<Item Name="Support VIs" Type="Folder">
+		<Item Name="AvaSpec Message Queue.lvlib" Type="Library" URL="../support/Message Queue/AvaSpec Message Queue.lvlib"/>
+		<Item Name="AvaSpec User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/AvaSpec User Event - Stop.lvlib"/>
 		<Item Name="AvaSpec Check Loop Error.vi" Type="VI" URL="../support/AvaSpec Check Loop Error.vi"/>
 		<Item Name="AvaSpec Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/AvaSpec Error Handler - Event Handling Loop.vi"/>
 		<Item Name="AvaSpec Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/AvaSpec Error Handler - Message Handling Loop.vi"/>
-		<Item Name="AvaSpec Message Queue.lvlib" Type="Library" URL="../support/Message Queue/AvaSpec Message Queue.lvlib"/>
 		<Item Name="AvaSpec Set Enable State on Multiple Controls.vi" Type="VI" URL="../support/AvaSpec Set Enable State on Multiple Controls.vi"/>
-		<Item Name="AvaSpec User Event - Stop.lvlib" Type="Library" URL="../support/User Event - Stop/AvaSpec User Event - Stop.lvlib"/>
 		<Item Name="Custom Error Handler.vi" Type="VI" URL="../support/Custom Error Handler.vi"/>
 		<Item Name="inherrited settings command.ctl" Type="VI" URL="../inherrited settings command.ctl"/>
 		<Item Name="inherrited settings.vi" Type="VI" URL="../inherrited settings.vi"/>
