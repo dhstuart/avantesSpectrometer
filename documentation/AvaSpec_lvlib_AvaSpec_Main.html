@@ -1,0 +1,724 @@
+<HTML>
+<HEAD>
+<TITLE>AvaSpec.lvlib:AvaSpec Main.vit</TITLE>
+<META NAME="Author" CONTENT="">
+<META NAME="GENERATOR" CONTENT="G Development Environment">
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+<A NAME="AvaSpec.lvlib:AvaSpec Main.vit"></A><H2>AvaSpec.lvlib:AvaSpec Main.vit</H2>
+<P>This VI provides control and an interface for Avantes Spectrometers. It is built based on the queued message handler template and low level function VI's from Avantes. It is made to function as a stand-alone piece of sofware, or to be controlled by the Measurement Control package. In addition to control and logging, it performs standard color metric calclations based on the spectrum it collects.</P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Mainc.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Mainp.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Stop</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Start</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Exit</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Settings</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Connect</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cqueuern.png" ALT="cqueuern"></P>
+</TD>
+<TD>
+<B>Master</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Stand Alone?</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cenum.png" ALT="cenum"></P>
+</TD>
+<TD>
+<B>Sphere Indicator</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cpath.png" ALT="cpath"></P>
+</TD>
+<TD>
+<B>Base Path</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Save Data</B> <P>Save the current data to a file.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cbool.png" ALT="cbool"></P>
+</TD>
+<TD>
+<B>Save for Cal</B> <P>Save the current data to a file.</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="cenum.png" ALT="cenum"></P>
+</TD>
+<TD>
+<B>Measurement Type In</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="istr.png" ALT="istr"></P>
+</TD>
+<TD>
+<B>Status</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="icclst.png" ALT="icclst"></P>
+</TD>
+<TD>
+<B>Color Parameters</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="i1dnclst.png" ALT="i1dnclst"></P>
+</TD>
+<TD>
+<B>Power Spectral Distribution</B> <P></P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="inclst.png" ALT="inclst"></P>
+</TD>
+<TD>
+<B>Color Values</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B>luminousFlux</B> <P>double</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B>CCT</B> <P>double</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B>CRI</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B>u'</B> <P>double</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B>v'</B> <P>double</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B>Duv</B> <P>double</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="i1ddbl.png" ALT="i1ddbl"></P>
+</TD>
+<TD>
+<B>R values</B> <P></P>
+</TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B>Numeric</B> </TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="inclst.png" ALT="inclst"></P>
+</TD>
+<TD>
+<B>Chromaticity  Coordinates</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B>x</B> <P>double</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B>y</B> <P>double</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B>z</B> <P>double</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B>u</B> <P>double</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B>v</B> <P>double</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="inclst.png" ALT="inclst"></P>
+</TD>
+<TD>
+<B>Tristimulus  Values</B> </TD>
+</TR>
+</Table>
+<UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B>X</B> <P>double</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B>Y</B> <P>double</P>
+</TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B>Z</B> <P>double</P>
+</TD>
+</TR>
+</Table>
+</UL>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="iatrn.png" ALT="iatrn"></P>
+</TD>
+<TD>
+<B>Time Stamp</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B>Temperature</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="idbl.png" ALT="idbl"></P>
+</TD>
+<TD>
+<B>Integration Time</B> </TD>
+</TR>
+</Table>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="ienum.png" ALT="ienum"></P>
+</TD>
+<TD>
+<B>Sphere Indicator</B> </TD>
+</TR>
+</Table>
+</UL>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind1.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind2.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind3.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind4.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind5.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind6.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind7.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind8.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind9.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind10.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind11.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind12.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind13.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind14.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind15.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind16.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind17.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind18.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind19.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind20.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind21.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind22.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind23.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind24.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind25.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind26.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind27.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind28.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind29.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind30.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind31.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind32.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind33.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind34.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind35.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind36.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maind37.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<Table>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Settings_lvlib_Save_Settings_to_XMLi.png" ALT="AvaSpec.lvlib:AvaSpec Settings.lvlib:Save Settings to XML.vi"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Settings.lvlib:Save Settings to XML.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\Settings\Save Settings to XML.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Set_Enable_State_on_Multiple_Controlsi.png" ALT="AvaSpec.lvlib:AvaSpec Set Enable State on Multiple Controls.vi"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Set Enable State on Multiple Controls.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\support\AvaSpec Set Enable State on Multiple Controls.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Settings_lvlib_Load_Settings_from_XMLi.png" ALT="AvaSpec.lvlib:AvaSpec Settings.lvlib:Load Settings from XML.vi"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Settings.lvlib:Load Settings from XML.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\Settings\Load Settings from XML.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Acquisition_lvlib_Measurement_Typei.png" ALT="AvaSpec.lvlib:AvaSpec Acquisition.lvlib:Measurement Type.vi"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Acquisition.lvlib:Measurement Type.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\Measurement Type.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_inherrited_settings_commandctli.png" ALT="AvaSpec.lvlib:inherrited settings command.ctl"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:inherrited settings command.ctl</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\inherrited settings command.ctl</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Message_Queue_lvlib_Dequeue_Master_and_Locali.png" ALT="AvaSpec.lvlib:AvaSpec Message Queue.lvlib:Dequeue Master and Local.vi"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Message Queue.lvlib:Dequeue Master and Local.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\support\Message Queue\Dequeue Master and Local.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_inherrited_settingsi.png" ALT="AvaSpec.lvlib:inherrited settings.vi"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:inherrited settings.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\inherrited settings.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Acquisition_lvlib_Acquisition_Message_Loopi.png" ALT="AvaSpec.lvlib:AvaSpec Acquisition.lvlib:Acquisition Message Loop.vi"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Acquisition.lvlib:Acquisition Message Loop.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\Acquisition\Acquisition Message Loop.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Message_Queue_lvlib_Enqueue_Message_(Array)i.png" ALT="AvaSpec.lvlib:AvaSpec Message Queue.lvlib:Enqueue Message (Array).vi"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Message Queue.lvlib:Enqueue Message (Array).vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\support\Message Queue\Enqueue Message (Array).vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Message_Queue_lvlib_Enqueue_Messagei.png" ALT="AvaSpec.lvlib:AvaSpec Message Queue.lvlib:Enqueue Message.vi"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Message Queue.lvlib:Enqueue Message.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\support\Message Queue\Enqueue Message.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Message_Queue_lvlib_Message_Clusterctli.png" ALT="AvaSpec.lvlib:AvaSpec Message Queue.lvlib:Message Cluster.ctl"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Message Queue.lvlib:Message Cluster.ctl</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\support\Message Queue\Message Cluster.ctl</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_User_Event_-_Stop_lvlib_Fire_User_Event_-_Stopi.png" ALT="AvaSpec.lvlib:AvaSpec User Event - Stop.lvlib:Fire User Event - Stop.vi"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec User Event - Stop.lvlib:Fire User Event - Stop.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\support\User Event - Stop\Fire User Event - Stop.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Acquisition_lvlib_Measurement_Typectli.png" ALT="AvaSpec.lvlib:AvaSpec Acquisition.lvlib:Measurement Type.ctl"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Acquisition.lvlib:Measurement Type.ctl</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\Settings\Measurement Type.ctl</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_Sphere_Indicatorctli.png" ALT="AvaSpec.lvlib:Sphere Indicator.ctl"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:Sphere Indicator.ctl</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\Acquisition\Sphere Indicator.ctl</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Logging_lvlib_Logging_Configurationctli.png" ALT="AvaSpec.lvlib:AvaSpec Logging.lvlib:Logging Configuration.ctl"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Logging.lvlib:Logging Configuration.ctl</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\Logging\Logging Configuration.ctl</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_Dark_lvlib_dark_int_timei.png" ALT="AvaSpec.lvlib:Dark.lvlib:dark int time.vi"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:Dark.lvlib:dark int time.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\dark int time.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Settings_lvlib_Settings_Dialogi.png" ALT="AvaSpec.lvlib:AvaSpec Settings.lvlib:Settings Dialog.vi"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Settings.lvlib:Settings Dialog.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\Settings\Settings Dialog.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Settings_lvlib_Settingsctli.png" ALT="AvaSpec.lvlib:AvaSpec Settings.lvlib:Settings.ctl"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Settings.lvlib:Settings.ctl</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\Settings\Settings.ctl</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AVS_settingsctli.png" ALT="AvaSpec.lvlib:AVS settings.ctl"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AVS settings.ctl</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\Libraries\AS-5216-DLL\AVS settings.ctl</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Acquisition_lvlib_Hardware_Configurationctli.png" ALT="AvaSpec.lvlib:AvaSpec Acquisition.lvlib:Hardware Configuration.ctl"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Acquisition.lvlib:Hardware Configuration.ctl</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\Acquisition\Hardware Configuration.ctl</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_Custom_Error_Handleri.png" ALT="AvaSpec.lvlib:Custom Error Handler.vi"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:Custom Error Handler.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\support\Custom Error Handler.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_update_settings_and_acquirei.png" ALT="AvaSpec.lvlib:update settings and acquire.vi"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:update settings and acquire.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\update settings and acquire.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_User_Event_-_Stop_lvlib_Destroy_User_Event_-_Stopi.png" ALT="AvaSpec.lvlib:AvaSpec User Event - Stop.lvlib:Destroy User Event - Stop.vi"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec User Event - Stop.lvlib:Destroy User Event - Stop.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\support\User Event - Stop\Destroy User Event - Stop.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="Error_Cluster_From_Error_Codei.png" ALT="Error Cluster From Error Code.vi"></P>
+</TD>
+<TD>
+<B><P>Error Cluster From Error Code.vi</P>
+</B><P>C:\Program Files (x86)\National Instruments\LabVIEW 2014\vi.lib\Utility\error.llb\Error Cluster From Error Code.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Message_Queue_lvlib_Enqueue_Message_(Single)i.png" ALT="AvaSpec.lvlib:AvaSpec Message Queue.lvlib:Enqueue Message (Single).vi"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Message Queue.lvlib:Enqueue Message (Single).vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\support\Message Queue\Enqueue Message (Single).vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Error_Handler_-_Message_Handling_Loopi.png" ALT="AvaSpec.lvlib:AvaSpec Error Handler - Message Handling Loop.vi"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Error Handler - Message Handling Loop.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\support\AvaSpec Error Handler - Message Handling Loop.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Logging_lvlib_Logging_Message_Loopi.png" ALT="AvaSpec.lvlib:AvaSpec Logging.lvlib:Logging Message Loop.vi"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Logging.lvlib:Logging Message Loop.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\Logging\Logging Message Loop.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Color_Parametersctli.png" ALT="AvaSpec.lvlib:AvaSpec Color Parameters.ctl"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Color Parameters.ctl</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\Acquisition\AvaSpec Color Parameters.ctl</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Error_Handler_-_Event_Handling_Loopi.png" ALT="AvaSpec.lvlib:AvaSpec Error Handler - Event Handling Loop.vi"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Error Handler - Event Handling Loop.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\support\AvaSpec Error Handler - Event Handling Loop.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Message_Queue_lvlib_Create_All_Message_Queuesi.png" ALT="AvaSpec.lvlib:AvaSpec Message Queue.lvlib:Create All Message Queues.vi"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec Message Queue.lvlib:Create All Message Queues.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\support\Message Queue\Create All Message Queues.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_User_Event_-_Stop_lvlib_Create_User_Event_-_Stopi.png" ALT="AvaSpec.lvlib:AvaSpec User Event - Stop.lvlib:Create User Event - Stop.vi"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec User Event - Stop.lvlib:Create User Event - Stop.vi</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\support\User Event - Stop\Create User Event - Stop.vi</P>
+</TD>
+</TR>
+<TR valign=TOP>
+<TD>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_UI_Datactli.png" ALT="AvaSpec.lvlib:AvaSpec UI Data.ctl"></P>
+</TD>
+<TD>
+<B><P>AvaSpec.lvlib:AvaSpec UI Data.ctl</P>
+</B><P>C:\Users\Daniel\Dropbox\CLTC\avantesSpectrometer\controls\AvaSpec UI Data.ctl</P>
+</TD>
+</TR>
+</Table>
+<P>&quot;AvaSpec.lvlib:AvaSpec Main.vit History&quot;</P>
+<P>Current Revision:   235</P>
+<HR>
+<H3>Position in Hierarchy</H3>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Mainh.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+<HR>
+<H3>Iconified Cluster Constants</H3>
+<P><IMG SRC="AvaSpec_lvlib_AvaSpec_Maink1.png" ALT="AvaSpec.lvlib:AvaSpec Main.vit"></P>
+</BODY>
+</HTML>

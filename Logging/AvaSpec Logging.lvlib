@@ -17,12 +17,6 @@
 	<Item Name="Metadata" Type="Folder">
 		<Item Name="Set Metadata.vi" Type="VI" URL="../Set Metadata.vi"/>
 	</Item>
-	<Item Name="Dark" Type="Folder">
-		<Item Name="Power Fit.vi" Type="VI" URL="../Dark/Power Fit.vi"/>
-		<Item Name="prepare dark model.vi" Type="VI" URL="../Dark/prepare dark model.vi"/>
-		<Item Name="Load Dark Array Data.vi" Type="VI" URL="../Dark/Load Dark Array Data.vi"/>
-		<Item Name="Non Linear Fit.vi" Type="VI" URL="../Dark/Non Linear Fit.vi"/>
-	</Item>
 	<Item Name="Logging Message Loop.vi" Type="VI" URL="../Logging Message Loop.vi"/>
 	<Item Name="Log Data.vi" Type="VI" URL="../Log Data.vi"/>
 	<Item Name="Write file.vi" Type="VI" URL="../Write file.vi"/>
@@ -31,5 +25,5 @@
 	<Item Name="Build Filename.vi" Type="VI" URL="../Build Filename.vi"/>
 	<Item Name="Date Name.vi" Type="VI" URL="../Date Name.vi"/>
 	<Item Name="choose type of cal file to save.vi" Type="VI" URL="../choose type of cal file to save.vi"/>
-	<Item Name="Metadata Cluster.ctl" Type="VI" URL="../../Metadata Cluster.ctl"/>
+	<Item Name="Metadata Cluster.ctl" Type="VI" URL="../../controls/Metadata Cluster.ctl"/>
 </Library>

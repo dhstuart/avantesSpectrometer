@@ -18,9 +18,11 @@
 		<Item Name="AvaSpec Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/AvaSpec Error Handler - Message Handling Loop.vi"/>
 		<Item Name="AvaSpec Set Enable State on Multiple Controls.vi" Type="VI" URL="../support/AvaSpec Set Enable State on Multiple Controls.vi"/>
 		<Item Name="Custom Error Handler.vi" Type="VI" URL="../support/Custom Error Handler.vi"/>
-		<Item Name="inherrited settings command.ctl" Type="VI" URL="../inherrited settings command.ctl"/>
-		<Item Name="inherrited settings.vi" Type="VI" URL="../inherrited settings.vi"/>
+		<Item Name="inherrited settings command.ctl" Type="VI" URL="../controls/inherrited settings command.ctl"/>
+		<Item Name="inherrited settings.vi" Type="VI" URL="../support/inherrited settings.vi"/>
 		<Item Name="Read CSV.vi" Type="VI" URL="../support/Read CSV.vi"/>
+		<Item Name="Call Chain (Single String).vi" Type="VI" URL="../support/Call Chain (Single String).vi"/>
+		<Item Name="update settings and acquire.vi" Type="VI" URL="../support/update settings and acquire.vi"/>
 	</Item>
 	<Item Name="Type Definitions" Type="Folder">
 		<Item Name="AvaSpec Acquired Data.ctl" Type="VI" URL="../controls/AvaSpec Acquired Data.ctl"/>
@@ -28,9 +30,11 @@
 		<Item Name="AvaSpec UI Data.ctl" Type="VI" URL="../controls/AvaSpec UI Data.ctl"/>
 		<Item Name="AvaSpec UI State.ctl" Type="VI" URL="../controls/AvaSpec UI State.ctl"/>
 		<Item Name="Sphere Indicator.ctl" Type="VI" URL="../Acquisition/Sphere Indicator.ctl"/>
+		<Item Name="AVS settings.ctl" Type="VI" URL="../Libraries/AS-5216-DLL/AVS settings.ctl"/>
+		<Item Name="IRRAD input parameters.ctl" Type="VI" URL="../Libraries/IRRAD-DLL/IRRAD input parameters.ctl"/>
 	</Item>
 	<Item Name="Test" Type="Folder">
-		<Item Name="grab data from light matrix.vi" Type="VI" URL="../grab data from light matrix.vi"/>
+		<Item Name="grab data from light matrix.vi" Type="VI" URL="../Test/grab data from light matrix.vi"/>
 	</Item>
 	<Item Name="AvaSpec Main.vit" Type="VI" URL="../AvaSpec Main.vit"/>
 	<Item Name="Avantes Spectrometer Functions.lvlib" Type="Library" URL="../Libraries/AS-5216-DLL/Avantes Spectrometer Functions.lvlib"/>
@@ -38,12 +42,8 @@
 	<Item Name="AvaSpec Logging.lvlib" Type="Library" URL="../Logging/AvaSpec Logging.lvlib"/>
 	<Item Name="AvaSpec Settings.lvlib" Type="Library" URL="../Settings/AvaSpec Settings.lvlib"/>
 	<Item Name="Metadata.lvlib" Type="Library" URL="../controls/Metadata.lvlib"/>
-	<Item Name="AVS settings.ctl" Type="VI" URL="../Libraries/AS-5216-DLL/AVS settings.ctl"/>
-	<Item Name="AVSirrad.dll" Type="Document" URL="../Libraries/AVSirrad.dll"/>
-	<Item Name="Call Chain (Single String).vi" Type="VI" URL="../support/Call Chain (Single String).vi"/>
+	<Item Name="Dark.lvlib" Type="Library" URL="../Dark/Dark.lvlib"/>
 	<Item Name="AVSirrad_support.lvlib" Type="Library" URL="../AVSirrad_support.lvlib"/>
-	<Item Name="update settings and acquire.vi" Type="VI" URL="../update settings and acquire.vi"/>
-	<Item Name="IRRAD input parameters.ctl" Type="VI" URL="../Libraries/IRRAD-DLL/IRRAD input parameters.ctl"/>
-	<Item Name="Dark Array FGV.vi" Type="VI" URL="../../MeasurementControl/Dark Array FGV.vi"/>
-	<Item Name="dark int time.vi" Type="VI" URL="../dark int time.vi"/>
+	<Item Name="Photometric values.vi" Type="VI" URL="../Libraries/IRRAD-DLL/Photometric values.vi"/>
+	<Item Name="Cal Aux Corrections.vi" Type="VI" URL="../Acquisition/Cal Aux Corrections.vi"/>
 </Library>

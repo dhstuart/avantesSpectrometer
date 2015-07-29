@@ -17,19 +17,14 @@
 	</Item>
 	<Item Name="Acquisition Message Loop.vi" Type="VI" URL="../Acquisition Message Loop.vi"/>
 	<Item Name="Acquire.vi" Type="VI" URL="../Acquire.vi"/>
-	<Item Name="Configure Hardware.vi" Type="VI" URL="../Configure Hardware.vi"/>
-	<Item Name="Generate Simulated Data.vi" Type="VI" URL="../Generate Simulated Data.vi"/>
 	<Item Name="Initialize Hardware References.vi" Type="VI" URL="../Initialize Hardware References.vi"/>
-	<Item Name="Stop Acquisition.vi" Type="VI" URL="../Stop Acquisition.vi"/>
-	<Item Name="Error Handler - Acquisition Message Loop.vi" Type="VI" URL="../Error Handler - Acquisition Message Loop.vi"/>
 	<Item Name="Avantes - take measurement.vi" Type="VI" URL="../Avantes - take measurement.vi"/>
 	<Item Name="Avantes - Determine Integration Time.vi" Type="VI" URL="../Avantes - Determine Integration Time.vi"/>
 	<Item Name="interpolate.vi" Type="VI" URL="../interpolate.vi"/>
-	<Item Name="Photometric values.vi" Type="VI" URL="../../Libraries/IRRAD-DLL/Photometric values.vi"/>
-	<Item Name="Cal Aux Corrections.vi" Type="VI" URL="../Cal Aux Corrections.vi"/>
 	<Item Name="Choose Sphere.vi" Type="VI" URL="../Choose Sphere.vi"/>
 	<Item Name="Measurement Type.ctl" Type="VI" URL="../../Settings/Measurement Type.ctl"/>
-	<Item Name="Measurement Type.vi" Type="VI" URL="../../Measurement Type.vi"/>
-	<Item Name="test color parameters.vi" Type="VI" URL="../../test color parameters.vi"/>
-	<Item Name="Dark Correct.vi" Type="VI" URL="../Dark Correct.vi"/>
+	<Item Name="Measurement Type.vi" Type="VI" URL="../Measurement Type.vi"/>
+	<Item Name="test color parameters.vi" Type="VI" URL="../../Test/test color parameters.vi"/>
+	<Item Name="Stop Acquisition.vi" Type="VI" URL="../Stop Acquisition.vi"/>
+	<Item Name="Error Handler - Acquisition Message Loop.vi" Type="VI" URL="../Error Handler - Acquisition Message Loop.vi"/>
 </Library>
